@@ -1,5 +1,6 @@
 const bottone = document.querySelector('#btn-toggle');
 const lampadina = document.querySelector('#lampadina-on-off');
+const luceCamera = document.querySelector('#luceCamera');
 
 /* --------------------------------
 FUNZIONI
@@ -10,11 +11,13 @@ function clickOnOff() {
         lampadina.src = "img/yellow_lamp.png";
         lampadina.alt="lampadina accesa";
         bottone.textContent = 'Spegni';
+        
     }
     else {
         lampadina.src = "img/white_lamp.png";
         lampadina.alt="lampadina spenta";
         bottone.textContent = 'Accendi';
+        sfondoColor = 'black';
     }
 }
 
