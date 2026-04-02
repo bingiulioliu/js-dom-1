@@ -11,11 +11,11 @@ function clickOnOff() {
         lampadina.alt="lampadina accesa";
         bottone.textContent = 'Spegni';
     }
-    else
+    else {
         lampadina.src = "img/white_lamp.png";
         lampadina.alt="lampadina spenta";
         bottone.textContent = 'Accendi';
-
+    }
 }
 
 // Collegamento bottone-funzione
